@@ -1,0 +1,144 @@
+html {
+  font-size: 62.5%;
+}
+
+.nav { 
+  background-color: white;
+  color: rgb(49, 14, 206);
+  font-size: 25px;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+    margin-right: 15px;
+}
+
+.margen-header {
+  background-color: black;
+}
+
+header {
+  color: white;
+  background-image: url(../images/plantel.jpg);
+  background-size: auto;
+
+}
+
+
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  background-color: rgb(1, 1, 21);
+  color: white;
+}
+
+h1 {
+  font-style: oblique;
+  color: blue;
+  font-size: 50px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+
+h2 {
+  color: white;
+  font-size: 25px;
+  text-align: left;
+}
+
+h3 {
+  color: white;
+  background-color: rgb(71, 111, 213);
+  font-size: 20px;
+  text-align: left;
+}
+
+h4 {
+font-size: 15px;
+}
+
+.label-formulario {
+  font-size: 18px;
+}
+
+.margen-abajo {
+  margin-bottom: 25px;
+}
+
+.margen-arriba {
+  margin-top: 25px;
+}
+
+.a-link {
+  color: white;
+}
+
+.tamaño-multimedia {
+  width: 560px;
+  height: 315px;
+  max-width: 100%;
+}
+
+.tamaño-logo {. 
+  width: 200px;
+  height: 200px;
+  max-width: 100%;
+}
+
+.imagenes-instalaciones {
+  width: 500px;
+  height: 500px;
+  max-width: 100%;
+}
+
+.titulos-grandes {
+  color: blue;
+  font-size: 35px;
+  background-color: rgb(16, 106, 170);
+  text-align: center;
+}
+
+.card {
+  background-color: rgb(148, 194, 206);
+  color: black;
+justify-content: space-between;
+  border: solid 5px white;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  position: relative;
+  overflow: hidden ;
+}
+
+.card_imagen {
+  width: 450px;
+  height: 300px;
+  max-width: 100%;
+}
+
+.card_titulo {
+  font-size: 18px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.card_descripcion {
+  font-size: 18px;
+  margin-bottom: 50px;
+}
+
+.card_descripcion--precio {
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+
+.card_boton {
+}
+
+.oferta{
+  color: black;
+  background-color: chartreuse;
+  position: absolute;
+  bottom: 110px;
+  right: 90px;
+}
