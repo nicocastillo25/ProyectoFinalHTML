@@ -80,11 +80,29 @@ font-size: 15px;
   max-width: 100%;
 }
 
-.tamaño-logo {. 
+.tamaño-logo {
   width: 200px;
   height: 200px;
   max-width: 100%;
-}
+  animation-name: camus;
+    animation-duration: 2s;
+    animation-delay: .5s;
+    animation-iteration-count: initial;
+    animation-timing-function: ease; 
+  }
+
+  @keyframes camus {
+    0% {
+      transform: translate(10px, 0); }
+    50% {
+      transform: translate(200px, 0); }
+    100% {
+      transform: translate(0px, 0) rotate(360deg); } }
+    header .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link:hover {
+      color: #7EB5A6;
+      border-bottom: solid #7EB5A6; }
+      header .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link:hover:active {
+        color: #FFCE45; }
 
 .imagenes-instalaciones {
   width: 500px;
