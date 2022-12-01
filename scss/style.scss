@@ -1,0 +1,181 @@
+$html-font-size: 62.5%;
+$color-white: white;
+
+html {
+  font-size: $html-font-size;
+}
+
+.nav {
+  background-color: $color-white;
+  color: rgb(49, 14, 206);
+  font-size: 25px;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 15px;
+}
+
+.margen-header {
+  background-color: black;
+}
+
+header {
+  color: $color-white;
+  background-image: url(../images/plantel.jpg);
+  background-size: auto;
+}
+
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  background-color: rgb(1, 1, 21);
+  color: $color-white;
+}
+
+h1 {
+  font-style: oblique;
+  color: blue;
+  font-size: 50px;
+  background-color: $color-white;
+  display: flex;
+  justify-content: center;
+}
+
+h2 {
+  color: $color-white;
+  font-size: 25px;
+  text-align: left;
+}
+
+h3 {
+  color: $color-white;
+  background-color: rgb(71, 111, 213);
+  font-size: 20px;
+  text-align: left;
+}
+
+h4 {
+  font-size: 15px;
+}
+
+.label-formulario {
+  font-size: 18px;
+}
+
+.margen-abajo {
+  margin-bottom: 25px;
+}
+
+.margen-arriba {
+  margin-top: 25px;
+}
+
+.a-link {
+  color: $color-white;
+}
+
+.tamaño-multimedia {
+  width: 560px;
+  height: 315px;
+  max-width: 100%;
+}
+
+.tamaño-logo {
+  width: 200px;
+  height: 200px;
+  max-width: 100%;
+  animation-name: casty;
+  animation-duration: 2s;
+  animation-delay: 0.5s;
+  animation-iteration-count: initial;
+  animation-timing-function: ease;
+}
+
+@keyframes casty {
+  0% {
+    transform: translate(10px, 0);
+  }
+  50% {
+    transform: translate(200px, 0);
+  }
+  100% {
+    transform: translate(0px, 0) rotate(360deg);
+  }
+}
+header
+  .navbar
+  .container-fluid
+  .navbar-collapse
+  .navbar-nav
+  .nav-item
+  .nav-link:hover {
+  color: #7eb5a6;
+  border-bottom: solid #7eb5a6;
+}
+header
+  .navbar
+  .container-fluid
+  .navbar-collapse
+  .navbar-nav
+  .nav-item
+  .nav-link:hover:active {
+  color: #ffce45;
+}
+
+.imagenes-instalaciones {
+  width: 500px;
+  height: 500px;
+  max-width: 100%;
+}
+
+.titulos-grandes {
+  color: blue;
+  font-size: 35px;
+  background-color: rgb(16, 106, 170);
+  text-align: center;
+}
+
+.card {
+  background-color: rgb(148, 194, 206);
+  color: black;
+  justify-content: space-between;
+  border: solid 5px $color-white;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  position: relative;
+  overflow: hidden;
+
+  .card_imagen {
+    width: 450px;
+    height: 300px;
+    max-width: 100%;
+  }
+
+  .card_titulo {
+    font-size: 18px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  
+  .card_descripcion {
+    font-size: 18px;
+    margin-bottom: 50px;
+  }
+  
+  .card_descripcion--precio {
+    font-size: 30px;
+    margin-bottom: 50px;
+  }
+
+}
+
+.oferta {
+  color: black;
+  background-color: chartreuse;
+  position: absolute;
+  bottom: 110px;
+  right: 90px;
+}
+
+@import "nav"

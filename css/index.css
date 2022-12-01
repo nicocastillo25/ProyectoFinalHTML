@@ -1,36 +1,29 @@
+@charset "UTF-8";
 html {
-  font-size: 62.5%;
-}
+  font-size: 62.5%; }
 
-.nav { 
+.nav {
   background-color: white;
-  color: rgb(49, 14, 206);
+  color: #310ece;
   font-size: 25px;
   list-style: none;
   display: flex;
   justify-content: space-evenly;
-    margin-right: 15px;
-}
+  margin-right: 15px; }
 
 .margen-header {
-  background-color: black;
-}
+  background-color: black; }
 
 header {
   color: white;
   background-image: url(../images/plantel.jpg);
-  background-size: auto;
-
-}
-
+  background-size: auto; }
 
 body {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-size: 15px;
-  background-color: rgb(1, 1, 21);
-  color: white;
-}
+  background-color: #010115;
+  color: white; }
 
 h1 {
   font-style: oblique;
@@ -38,125 +31,117 @@ h1 {
   font-size: 50px;
   background-color: white;
   display: flex;
-  justify-content: center;
-}
+  justify-content: center; }
 
 h2 {
   color: white;
   font-size: 25px;
-  text-align: left;
-}
+  text-align: left; }
 
 h3 {
   color: white;
-  background-color: rgb(71, 111, 213);
+  background-color: #476fd5;
   font-size: 20px;
-  text-align: left;
-}
+  text-align: left; }
 
 h4 {
-font-size: 15px;
-}
+  font-size: 15px; }
 
 .label-formulario {
-  font-size: 18px;
-}
+  font-size: 18px; }
 
 .margen-abajo {
-  margin-bottom: 25px;
-}
+  margin-bottom: 25px; }
 
 .margen-arriba {
-  margin-top: 25px;
-}
+  margin-top: 25px; }
 
 .a-link {
-  color: white;
-}
+  color: white; }
 
 .tamaño-multimedia {
   width: 560px;
   height: 315px;
-  max-width: 100%;
-}
+  max-width: 100%; }
 
 .tamaño-logo {
   width: 200px;
   height: 200px;
   max-width: 100%;
-  animation-name: camus;
-    animation-duration: 2s;
-    animation-delay: .5s;
-    animation-iteration-count: initial;
-    animation-timing-function: ease; 
-  }
+  animation-name: casty;
+  animation-duration: 2s;
+  animation-delay: 0.5s;
+  animation-iteration-count: initial;
+  animation-timing-function: ease; }
 
-  @keyframes camus {
-    0% {
-      transform: translate(10px, 0); }
-    50% {
-      transform: translate(200px, 0); }
-    100% {
-      transform: translate(0px, 0) rotate(360deg); } }
-    header .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link:hover {
-      color: #7EB5A6;
-      border-bottom: solid #7EB5A6; }
-      header .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link:hover:active {
-        color: #FFCE45; }
+@keyframes casty {
+  0% {
+    transform: translate(10px, 0); }
+  50% {
+    transform: translate(200px, 0); }
+  100% {
+    transform: translate(0px, 0) rotate(360deg); } }
+
+header
+.navbar
+.container-fluid
+.navbar-collapse
+.navbar-nav
+.nav-item
+.nav-link:hover {
+  color: #7eb5a6;
+  border-bottom: solid #7eb5a6; }
+
+header
+.navbar
+.container-fluid
+.navbar-collapse
+.navbar-nav
+.nav-item
+.nav-link:hover:active {
+  color: #ffce45; }
 
 .imagenes-instalaciones {
   width: 500px;
   height: 500px;
-  max-width: 100%;
-}
+  max-width: 100%; }
 
 .titulos-grandes {
   color: blue;
   font-size: 35px;
-  background-color: rgb(16, 106, 170);
-  text-align: center;
-}
+  background-color: #106aaa;
+  text-align: center; }
 
 .card {
-  background-color: rgb(148, 194, 206);
+  background-color: #94c2ce;
   color: black;
-justify-content: space-between;
+  justify-content: space-between;
   border: solid 5px white;
   margin-top: 10px;
   margin-bottom: 30px;
   position: relative;
-  overflow: hidden ;
-}
+  overflow: hidden; }
+  .card .card_imagen {
+    width: 450px;
+    height: 300px;
+    max-width: 100%; }
+  .card .card_titulo {
+    font-size: 18px;
+    margin-bottom: 50px;
+    text-align: center; }
+  .card .card_descripcion {
+    font-size: 18px;
+    margin-bottom: 50px; }
+  .card .card_descripcion--precio {
+    font-size: 30px;
+    margin-bottom: 50px; }
 
-.card_imagen {
-  width: 450px;
-  height: 300px;
-  max-width: 100%;
-}
-
-.card_titulo {
-  font-size: 18px;
-  margin-bottom: 50px;
-  text-align: center;
-}
-
-.card_descripcion {
-  font-size: 18px;
-  margin-bottom: 50px;
-}
-
-.card_descripcion--precio {
-  font-size: 30px;
-  margin-bottom: 50px;
-}
-
-.card_boton {
-}
-
-.oferta{
+.oferta {
   color: black;
   background-color: chartreuse;
   position: absolute;
   bottom: 110px;
-  right: 90px;
-}
+  right: 90px; }
+
+.nav li a {
+  text-decoration: underline; }
