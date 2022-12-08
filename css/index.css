@@ -1,6 +1,13 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Poppins");
 html {
   font-size: 62.5%; }
+
+body {
+  font-family: Poppins, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-size: 15px;
+  background-color: #010115;
+  color: white; }
 
 .nav {
   background-color: white;
@@ -11,19 +18,56 @@ html {
   justify-content: space-evenly;
   margin-right: 15px; }
 
+.nav li a {
+  text-decoration: underline; }
+
+.margen-abajo {
+  margin-bottom: 25px; }
+
+.margen-arriba {
+  margin-top: 25px; }
+
+.a-link {
+  color: white; }
+
 .margen-header {
   background-color: black; }
+
+.card {
+  background-color: #94c2ce;
+  color: black;
+  justify-content: space-between;
+  border: solid 5px white;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  position: relative;
+  overflow: hidden; }
+  .card .card_imagen {
+    width: 450px;
+    height: 300px;
+    max-width: 100%; }
+  .card .card_titulo {
+    font-size: 18px;
+    margin-bottom: 50px;
+    text-align: center; }
+  .card .card_descripcion {
+    font-size: 18px;
+    margin-bottom: 50px; }
+  .card .card_descripcion--precio {
+    font-size: 30px;
+    margin-bottom: 50px; }
+
+.oferta {
+  color: black;
+  background-color: chartreuse;
+  position: absolute;
+  bottom: 110px;
+  right: 90px; }
 
 header {
   color: white;
   background-image: url(../images/plantel.jpg);
   background-size: auto; }
-
-body {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  font-size: 15px;
-  background-color: #010115;
-  color: white; }
 
 h1 {
   font-style: oblique;
@@ -49,15 +93,6 @@ h4 {
 
 .label-formulario {
   font-size: 18px; }
-
-.margen-abajo {
-  margin-bottom: 25px; }
-
-.margen-arriba {
-  margin-top: 25px; }
-
-.a-link {
-  color: white; }
 
 .tamaño-multimedia {
   width: 560px;
@@ -135,13 +170,3 @@ header
   .card .card_descripcion--precio {
     font-size: 30px;
     margin-bottom: 50px; }
-
-.oferta {
-  color: black;
-  background-color: chartreuse;
-  position: absolute;
-  bottom: 110px;
-  right: 90px; }
-
-.nav li a {
-  text-decoration: underline; }

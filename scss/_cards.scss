@@ -1,0 +1,32 @@
+.card {
+  background-color: rgb(148, 194, 206);
+  color: black;
+  justify-content: space-between;
+  border: solid 5px $color-white;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  position: relative;
+  overflow: hidden;
+
+  .card_imagen {
+    width: 450px;
+    height: 300px;
+    max-width: 100%;
+  }
+
+  .card_titulo {
+    font-size: 18px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+
+  .card_descripcion {
+    font-size: 18px;
+    margin-bottom: 50px;
+  }
+
+  .card_descripcion--precio {
+    font-size: 30px;
+    margin-bottom: 50px;
+  }
+}

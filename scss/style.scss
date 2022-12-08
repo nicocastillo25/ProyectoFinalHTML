@@ -1,36 +1,18 @@
-$html-font-size: 62.5%;
-$color-white: white;
+@import "variables";
+@import "common";
+@import "cards";
+@import "home";
+@import "club";
+@import "deportes";
+@import "store";
+@import "contactos";
 
-html {
-  font-size: $html-font-size;
-}
 
-.nav {
-  background-color: $color-white;
-  color: rgb(49, 14, 206);
-  font-size: 25px;
-  list-style: none;
-  display: flex;
-  justify-content: space-evenly;
-  margin-right: 15px;
-}
-
-.margen-header {
-  background-color: black;
-}
 
 header {
   color: $color-white;
   background-image: url(../images/plantel.jpg);
   background-size: auto;
-}
-
-body {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  font-size: 15px;
-  background-color: rgb(1, 1, 21);
-  color: $color-white;
 }
 
 h1 {
@@ -61,18 +43,6 @@ h4 {
 
 .label-formulario {
   font-size: 18px;
-}
-
-.margen-abajo {
-  margin-bottom: 25px;
-}
-
-.margen-arriba {
-  margin-top: 25px;
-}
-
-.a-link {
-  color: $color-white;
 }
 
 .tamaño-multimedia {
@@ -157,25 +127,14 @@ header
     margin-bottom: 50px;
     text-align: center;
   }
-  
+
   .card_descripcion {
     font-size: 18px;
     margin-bottom: 50px;
   }
-  
+
   .card_descripcion--precio {
     font-size: 30px;
     margin-bottom: 50px;
   }
-
 }
-
-.oferta {
-  color: black;
-  background-color: chartreuse;
-  position: absolute;
-  bottom: 110px;
-  right: 90px;
-}
-
-@import "nav"

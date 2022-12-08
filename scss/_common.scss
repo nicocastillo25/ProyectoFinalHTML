@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins");
+html {
+  font-size: $html-font-size;
+}
+
+body {
+  font-family: $font-casty;
+  font-size: 15px;
+  background-color: rgb(1, 1, 21);
+  color: $color-white;
+}
+
+.nav {
+  background-color: $color-white;
+  color: rgb(49, 14, 206);
+  font-size: 25px;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 15px;
+}
+
+.nav {
+  li {
+    a {
+      text-decoration: underline;
+    }
+  }
+}
+
+.margen-abajo {
+  margin-bottom: 25px;
+}
+
+.margen-arriba {
+  margin-top: 25px;
+}
+
+.a-link {
+  color: $color-white;
+}
+
+.margen-header {
+  background-color: $color-black;
+}
