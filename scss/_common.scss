@@ -10,22 +10,83 @@ body {
   color: $color-white;
 }
 
+header {
+  color: $color-white;
+  background-image: url(../images/plantel.jpg);
+  background-size: auto;
+}
+
 .nav {
   background-color: $color-white;
-  color: rgb(49, 14, 206);
+  color: $color-blue;
   font-size: 25px;
   list-style: none;
   display: flex;
   justify-content: space-evenly;
   margin-right: 15px;
-}
 
-.nav {
   li {
     a {
       text-decoration: underline;
     }
   }
+}
+
+h1 {
+  font-style: oblique;
+  color: $color-blue;
+  font-size: 50px;
+  background-color: $color-white;
+  display: flex;
+  justify-content: center;
+}
+
+h2 {
+  color: $color-white;
+  font-size: 25px;
+  text-align: left;
+}
+
+h3 {
+  color: $color-white;
+  background-color: rgb(71, 111, 213);
+  font-size: 20px;
+  text-align: left;
+}
+
+h4 {
+  font-size: 15px;
+}
+
+@keyframes casty {
+  0% {
+    transform: translate(10px, 0);
+  }
+  50% {
+    transform: translate(200px, 0);
+  }
+  100% {
+    transform: translate(0px, 0) rotate(360deg);
+  }
+}
+header
+  .navbar
+  .container-fluid
+  .navbar-collapse
+  .navbar-nav
+  .nav-item
+  .nav-link:hover {
+  color: #7eb5a6;
+  border-bottom: solid #7eb5a6;
+}
+header
+  .navbar
+  .container-fluid
+  .navbar-collapse
+  .navbar-nav
+  .nav-item
+  .nav-link:hover:active {
+  color: #ffce45;
 }
 
 .margen-abajo {
@@ -42,4 +103,66 @@ body {
 
 .margen-header {
   background-color: $color-black;
+}
+
+.tamaño-multimedia {
+  width: 560px;
+  height: 315px;
+  max-width: 100%;
+}
+
+.tamaño-logo {
+  width: 200px;
+  height: 200px;
+  max-width: 100%;
+  animation-name: casty;
+  animation-duration: 2s;
+  animation-delay: 0.5s;
+  animation-iteration-count: initial;
+  animation-timing-function: ease;
+}
+
+.imagenes-instalaciones {
+  width: 500px;
+  height: 500px;
+  max-width: 100%;
+}
+
+.titulos-grandes {
+  color: $color-blue;
+  font-size: 35px;
+  background-color: rgb(16, 106, 170);
+  text-align: center;
+}
+
+// Media Queries
+
+@media only screen and (max-width: 600px) {
+body {
+   color: red;
+}
+}
+
+@media only screen and (min-width: 600px) {
+  body {
+    color: green;
+}
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    color:  $color-blue;
+}
+}
+
+@media only screen and (min-width: 992px) {
+  body {
+    color: yellow;
+}
+}
+
+@media only screen and (min-width: 1200px) {
+  body {
+    color: $color-white;
+}
 }
