@@ -102,8 +102,8 @@ header
   animation-timing-function: ease; }
 
 .imagenes-instalaciones {
-  width: 500px;
-  height: 500px;
+  width: 200px;
+  height: 200px;
   max-width: 100%; }
 
 .titulos-grandes {
@@ -165,7 +165,3 @@ header
 
 .label-formulario {
   font-size: 18px; }
-
-.input-formulario {
-  width: 50px;
-  height: 50px; }

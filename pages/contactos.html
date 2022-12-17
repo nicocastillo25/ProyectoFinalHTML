@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="keywords"  content="CENTRO, ESPAÑOL, FUTSAL, CLUB, HAEDO, BARRIO, NATACION, BASQUET">
     <title>Contactos | Centro Español</title>
+    <link rel="icon" type="image/x-icon" href="../favicon.ico" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/index.css" />
   </head>
@@ -33,6 +34,7 @@
     <hr />
 
     <main>
+      <div class="container">
       <li>
         Contactos
         <ul>
@@ -51,76 +53,70 @@
       <section>
         <h2>Consulta Online</h2>
         <p>Tambien podes dejarnos con tus consultas completando el siguiente formulario y te estaremos respondiendo vía mail.</p>
-        <form>
-            <fieldset>
-                <legend>Tus datos personales</legend>
-                
-                <div class="label-formulario">
-                  <label for="nombre" class=>Nombre</label>
-                </div>
-
-                <div class="input-formulario">
-                  <input type="text" id="nombre" required>
-                </div>
-
-                <div class="label-formulario">
-                  <label for="apellido">Apellido</label>
-                </div>
-
-                <div class="input-formulario">
-                  <input type="text" id="apellido" required>
-                </div>
-                
-                <div class="label-formulario">
-                    <label for="email" class="lebel-form">Correo electrónico</label>
-                </div>
-
-                <div class="input-formulario"> 
-                    <input type="email" id="email" required>
-                </div>
+        <div class="row">
+          <div class="col-md-4 offset-md-4">
+            <form>
+              <fieldset>
+                  <legend>Tus datos personales</legend>
+                  
+                  <div class="mb-3">
+                    <label class="form-label">Nombre</label>
+                    <input type="text" class="form-control">
+                  </div>
+                  <div class="mb-3">
+                    <label class="form-label">Apellido</label>
+                    <input type="text" class="form-control">
+                  </div>
+                  <div class="mb-3">
+                    <label class="form-label">Correo electrónico</label>
+                    <input type="email" class="form-control">
+                  </div>
+                  <div class="mb-3">
+                    <label class="form-label">Telefono de contacto</label>
+                    <input type="tel" class="form-control">
+                  </div>
+                  
+                  <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
+  
+                  <div class="margen-abajo">
+                    <p>Elije el deporte a consultar:</p>
     
-              
-                <div class="label-formulario">    
-                    <label for="text" class="lebel-form">Telefono de contacto</label>
-                </div>
-
-                <div class="input-formulario">
-                    <input type="tel" id="tel">
-                </div>
-
-                <div class="margen-abajo">
-                  <p>Elije el deporte a consultar:</p>
-  
-                  <label for="opcion1">FÚTBOL</label>
-                  <input type="radio" name="cursos" id="opcion1">
-  
-                  <label for="opcion2">BÁSQUET</label>
-                  <input type="radio" name="cursos" id="opcion2">
-  
-                  <label for="opcion3">NATACIÓN</label>
-                  <input type="radio" name="cursos" id="opcion3">
-
-                  <label for="opcion3">VÓLEY</label>
-                  <input type="radio" name="cursos" id="opcion4">
-
-                  </div>
-
-                  <div class="label-formulario">
-                    <label for="mensaje">Dejanos tu consulta y en breve nos pondremos en contacto..</label>
-                  </div>
-
-                  <div>
-                    <textarea id="mensaje" cols="50" rows="20" maxlength="100"></textarea>
-                  </div>
+                    <label for="opcion1">FÚTBOL</label>
+                    <input type="radio" name="cursos" id="opcion1">
     
-                  <div>
-                    <input type="submit" value="Enviar consulta">
-                    <input type="reset" value="Borrar consulta">
-                  </div>
-            </fieldset>
-        </form>
+                    <label for="opcion2">BÁSQUET</label>
+                    <input type="radio" name="cursos" id="opcion2">
+    
+                    <label for="opcion3">NATACIÓN</label>
+                    <input type="radio" name="cursos" id="opcion3">
+  
+                    <label for="opcion3">VÓLEY</label>
+                    <input type="radio" name="cursos" id="opcion4">
+  
+                    </div>
+  
+                    <div class="label-formulario">
+                      <label for="mensaje">Dejanos tu consulta y en breve nos pondremos en contacto..</label>
+                    </div>
+  
+                    <div class="mb-3">
+                      <label class="form-label">mensaje</label>
+                      <textarea class="form-control" id="mensaje" rows="10"></textarea>
+                    </div>
+      
+                    <div>
+                      <input type="submit" value="Enviar consulta">
+                      <input type="reset" value="Borrar consulta">
+                    </div>
+              </fieldset>
+          </form>
+          </div>
+        </div>
     </section>
-
+    </div>
     </main>
 
   <hr />

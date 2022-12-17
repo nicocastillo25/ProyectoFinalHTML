@@ -34,7 +34,7 @@ header {
 
 h1 {
   font-style: oblique;
-  color: $color-blue;
+  @include font_color($color-blue);
   font-size: 50px;
   background-color: $color-white;
   display: flex;
@@ -123,8 +123,8 @@ header
 }
 
 .imagenes-instalaciones {
-  width: 500px;
-  height: 500px;
+  width: 200px;
+  height: 200px;
   max-width: 100%;
 }
 
@@ -166,3 +166,4 @@ body {
     color: $color-white;
 }
 }
+
